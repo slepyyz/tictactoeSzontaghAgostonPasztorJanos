@@ -86,7 +86,14 @@ def jatek_futtat():
     global jatek_megy, lepesek_szama, nyertes
     
     print("AMŐBA JÁTÉK (X = Te, O = Gép)")
+    print("SZABÁLYOK:")
+    print("---------------------------------")
+    print("HA AZT AKROD HOGY LEÁLLJON A PROGRAM, NE IRJ BE EZEKET: 0,1,2")
+    print("HA AZT AKAROD HOGY LEÁLLJON A PROGRAM, ÜSS EGY ENTERT!")
+    print("SIMA 'SPACE' SE HASZNÁLJ MERT LEÁLL A PROGRAM!")
     print("Csak 0, 1 vagy 2 számokat írj be!")
+    print("SEMMILYEN SPECIÁLIS KARAKTERT NE HASZNÁLJ!")
+    print("HA BETŰT ÍRSZ, A PROGRAM LEÁLL!")
     print("---------------------------------")
 
     kiiras()

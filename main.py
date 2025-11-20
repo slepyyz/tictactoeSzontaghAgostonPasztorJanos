@@ -18,3 +18,14 @@ while ujra_jatszik:
         print(" Döntetlen! Jó játék volt!")
     
    
+    valasz = input("\nSzeretnél újra játszani? (i/n): ").lower()
+    if valasz != 'i':
+        ujra_jatszik = False
+    else:
+        feladatok.reset_jatek()
+        print("\n" + "=" * 30)
+        print("         ÚJ JÁTÉK ")
+        print("=" * 30)
+
+print("Köszönjük a játékot!")
+print("=" * 30)
